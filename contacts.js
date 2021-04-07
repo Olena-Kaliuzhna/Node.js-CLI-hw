@@ -9,7 +9,7 @@ const listContacts = async () => {
     const parsedContacts = JSON.parse(data);
 
     if (parsedContacts.length === 0) {
-      return console.log(`No contacts`);      
+      return console.log(`No contacts`);
     }
     console.table(parsedContacts);
   } catch (err) {
@@ -26,10 +26,10 @@ const getContactById = async contactId => {
     );
 
     if (parsedContacts.length === 0) {
-     return console.log(`No contacts`);      
+      return console.log(`No contacts`);
     }
     if (!contactById) {
-      return console.log(`Contact with id: ${contactId} is not found`);      
+      return console.log(`Contact with id: ${contactId} is not found`);
     }
 
     console.table(contactById);
@@ -61,7 +61,7 @@ const removeContact = async contactId => {
     const parsedContacts = JSON.parse(data.toString());
 
     if (parsedContacts.length === 0) {
-      return console.log(`No contacts`);     
+      return console.log(`No contacts`);
     }
 
     const contactById = parsedContacts.find(
@@ -75,7 +75,6 @@ const removeContact = async contactId => {
     const contacts = parsedContacts.filter(contact => contact.id !== contactId);
 
     await fs.writeFile(contactsPath, JSON.stringify(contacts));
-    
     console.log(`Contact with id: ${contactId} was deleted`);
   } catch (err) {
     console.log(err);
