@@ -149,16 +149,17 @@ invokeAction(argv);
 ```shell
 # Получаем и выводим весь список контактов в виде таблицы (console.table)
 node index.js --action="list"
-![alt text](image/list.jpg)
+![CLI-list](https://user-images.githubusercontent.com/64989825/113911152-4b7fc580-97e2-11eb-8f60-c78a4142d5e5.png)
 # Получаем контакт по id
 node index.js --action="get" --id=5
-![alt text](image/CLI-getById.jpg)
+![CLI-getById](https://user-images.githubusercontent.com/64989825/113911273-78cc7380-97e2-11eb-9257-541d234ed8cb.jpg)
 # Добавялем контакт
 node index.js --action="add" --name="Mango" --email="mango@gmail.com" --phone="322-22-22"
-![alt text](image/CLI-getById.jpg)
+![CLI-addContact](https://user-images.githubusercontent.com/64989825/113911308-85e96280-97e2-11eb-8b84-7531de2bd256.jpg)
 # Удаляем контакт
 node index.js --action="remove" --id=3
-![alt text](image/CLI-removeContact.jpg)
+![CLI-removeContact](https://user-images.githubusercontent.com/64989825/113911380-96014200-97e2-11eb-85e2-c261fae69d5e.jpg)
+
 # Выводим весь финальный список контактов в виде таблицы (console.table)
-![alt text](image/CLI-finalList.jpg)
+![CLI-finalList](https://user-images.githubusercontent.com/64989825/113911419-a0bbd700-97e2-11eb-91d9-3fde8dca71f3.jpg)
 ```
