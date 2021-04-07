@@ -1,0 +1,27 @@
+{
+  "name": "node.js-cli-hw",
+  "version": "1.0.0",
+  "description": "node.js-cli home work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olena-Kaliuzhna/Node.js-CLI-hw.git"
+  },
+  "author": "Olena Kaliuzhna <om.kaliuzhna.dz@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Olena-Kaliuzhna/Node.js-CLI-hw/issues"
+  },
+  "homepage": "https://github.com/Olena-Kaliuzhna/Node.js-CLI-hw#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "yargs": "^16.2.0"
+  }
+}
