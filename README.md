@@ -1,5 +1,34 @@
 # goit-node-hw-01
 
+# Получаем и выводим весь список контактов в виде таблицы (console.table)
+
+node index.js --action="list"
+
+![CLI-list](images/CLI-list.jpg)
+
+# Получаем контакт по id
+
+node index.js --action="get" --id=5
+
+![CLI-getById](images/CLI-getById.jpg)
+
+# Добавялем контакт
+
+node index.js --action="add" --name="Mango" --email="mango@gmail.com"
+--phone="322-22-22"
+
+![CLI-addContact](images/CLI-addContact.jpg)
+
+# Удаляем контакт
+
+node index.js --action="remove" --id=3
+
+![CLI-removeContact](images/CLI-removeContact.jpg)
+
+# Выводим весь финальный список контактов в виде таблицы (console.table)
+
+![CLI-finalList](images/CLI-finalList.jpg)
+
 # Домашнее задание 1
 
 ## Шаг 1
@@ -148,23 +177,17 @@ invokeAction(argv);
 
 # Получаем и выводим весь список контактов в виде таблицы (console.table)
 
-node index.js --action="list" ![CLI-list](images/CLI-list.jpg)
+node index.js --action="list"
 
 # Получаем контакт по id
 
-node index.js --action="get" --id=5 ![CLI-getById](images/CLI-getById.jpg)
+node index.js --action="get" --id=5
 
 # Добавялем контакт
 
 node index.js --action="add" --name="Mango" --email="mango@gmail.com"
---phone="322-22-22" ![CLI-addContact](images/CLI-addContact.jpg)
+--phone="322-22-22"
 
 # Удаляем контакт
 
 node index.js --action="remove" --id=3
-
-![CLI-removeContact](images/CLI-removeContact.jpg)
-
-# Выводим весь финальный список контактов в виде таблицы (console.table)
-
-![CLI-finalList](images/CLI-finalList.jpg)
