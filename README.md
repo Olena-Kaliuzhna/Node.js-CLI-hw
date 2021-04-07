@@ -149,13 +149,16 @@ invokeAction(argv);
 ```shell
 # Получаем и выводим весь список контактов в виде таблицы (console.table)
 node index.js --action="list"
-(./images/list.jpg)
+![alt text](image/list.jpg)
 # Получаем контакт по id
 node index.js --action="get" --id=5
-
+![alt text](image/CLI-getById.jpg)
 # Добавялем контакт
 node index.js --action="add" --name="Mango" --email="mango@gmail.com" --phone="322-22-22"
-
+![alt text](image/CLI-getById.jpg)
 # Удаляем контакт
 node index.js --action="remove" --id=3
+![alt text](image/CLI-removeContact.jpg)
+# Выводим весь финальный список контактов в виде таблицы (console.table)
+![alt text](image/CLI-finalList.jpg)
 ```
