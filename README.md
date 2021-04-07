@@ -146,20 +146,25 @@ invokeAction(argv);
 Запусти команды в терминале и сделай отдельный скриншот результата выполнения
 каждой команды.
 
-```shell
 # Получаем и выводим весь список контактов в виде таблицы (console.table)
-node index.js --action="list"
-![CLI-list](https://user-images.githubusercontent.com/64989825/113911152-4b7fc580-97e2-11eb-8f60-c78a4142d5e5.png)
+
+node index.js --action="list" ![CLI-list](images/CLI-list.jpg)
+
 # Получаем контакт по id
-node index.js --action="get" --id=5
-![CLI-getById](https://user-images.githubusercontent.com/64989825/113911273-78cc7380-97e2-11eb-9257-541d234ed8cb.jpg)
+
+node index.js --action="get" --id=5 ![CLI-getById](images/CLI-getById.jpg)
+
 # Добавялем контакт
-node index.js --action="add" --name="Mango" --email="mango@gmail.com" --phone="322-22-22"
-![CLI-addContact](https://user-images.githubusercontent.com/64989825/113911308-85e96280-97e2-11eb-8b84-7531de2bd256.jpg)
+
+node index.js --action="add" --name="Mango" --email="mango@gmail.com"
+--phone="322-22-22" ![CLI-addContact](images/CLI-addContact.jpg)
+
 # Удаляем контакт
+
 node index.js --action="remove" --id=3
-![CLI-removeContact](https://user-images.githubusercontent.com/64989825/113911380-96014200-97e2-11eb-85e2-c261fae69d5e.jpg)
+
+![CLI-removeContact](images/CLI-removeContact.jpg)
 
 # Выводим весь финальный список контактов в виде таблицы (console.table)
-![CLI-finalList](https://user-images.githubusercontent.com/64989825/113911419-a0bbd700-97e2-11eb-91d9-3fde8dca71f3.jpg)
-```
+
+![CLI-finalList](images/CLI-finalList.jpg)
